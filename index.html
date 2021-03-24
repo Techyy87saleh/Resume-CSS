@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	 <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>Resume</title>
+</head>
+<body>
+	<style>
+		:root{
+			--text-color : black;
+			--b-color : orange;
+		}
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+   
+		}
+		body{
+			background:#e15f41;
+			margin-right:5px;
+  			font-size: 12px;
+	font-size: 1rem;
+	font-style:italic;
+ 
+ 
+		}
+		.header{
+
+		clip-path: polygon(0% 0%, 100% 0, 100% 84%, 100% 84%, 0 50%);
+
+ 		background:#7ed6df;
+		padding:4rem;
+		width:100%;
+
+		}
+		.header h1{
+			display: flex;
+			justify-content: flex-end;
+			color:var(--text-color);
+			font-weight:900;
+    		}
+		.image{
+			padding:4rem;
+ 		}
+		.image img{
+			border-radius:80%;
+  			height:160px;
+			  position:absolute;
+			  top:6%;
+			  border-top:8px solid #546de5;
+			  border-right:8px solid #546de5;
+		}
+		.icons{
+			margin-top:-5rem;
+			margin-left:5rem;
+			font-size:1rem;
+  		}
+		.icons i{
+			background:var(--b-color);
+		    border-radius:5%;
+			width:350px;
+			column-count: 2;
+			padding:1rem;
+			
+    		}
+		.profile h4{
+			text-transform: uppercase;
+			color:var(--text-color);
+
+ 			padding:2rem;
+ 		}
+		.profile hr{
+			width:30%;
+			margin-top:-2rem;
+			margin-left:2rem;
+			border:1px solid var(--b-color);
+
+    		}
+	    .profile p{
+			padding:2rem;
+			width:320px;
+			color:var(--text-color);
+
+ 			font-weight:700;
+ 			line-height:1.9rem;
+			text-align:center;
+ 			
+		}
+		.progress{
+			padding:2rem;
+		}
+		.progress1{
+			padding:2rem;
+		}
+		.progress2{
+			padding:2rem;
+		}
+		.progress3{
+			padding:2rem;
+		}
+		.progress4{
+			padding:2rem;
+		}
+		.progress5{
+			padding:2rem;
+		}
+		.progress6{
+			padding:2rem;
+		}
+		.progress7{
+			padding:2rem;
+		}
+		.progress8{
+			padding:2rem;
+		}
+		.progress9{
+			padding:2rem;
+		}
+		.progress10{
+			padding:2rem;
+		}
+		.progress11{
+			padding:2rem;
+		}
+		.progress12{
+			padding:2rem;
+		}
+		 
+		  
+		.skills h1{
+			padding:2rem;
+			color:var(--text-color);
+
+ 		}
+		.skills hr{
+			width:25%;
+			margin-top:-2rem;
+			margin-left:2rem;
+			border:1px solid var(--b-color);
+
+ 		}
+	     .education{
+			 column-count:1;
+			 display: flex;
+			 justify-content: flex-end;
+			 grid-template-columns: 1fr;
+			 column-count: 1;
+			 flex:2;
+			 margin-top:-172rem;
+			 padding:2rem;
+      		 }
+		 
+
+			   
+			.education hr{
+ 			width:35%;
+			margin-top:-1rem;
+			margin-left:0rem;
+			border:1px solid var(--b-color);
+
+     		}
+			   
+		.experience{
+			padding:0.1rem;
+		}
+		.experience i{
+			font-style:italic;
+		}
+		.experience hr{
+ 			width:30%;
+			margin-top:-1rem;
+			margin-left:0rem;
+			border:1px solid var(--b-color);
+
+     		}
+		.languages{
+			padding:0.1rem;
+		}
+		.awards{
+			padding:0.1rem;
+		}
+		.hobbies{
+			padding:0.1rem;
+		}
+		.edu1 hr{
+ 			width:35%;
+			margin-top:-1rem;
+			margin-left:0rem;
+			border:1px solid var(--b-color);
+
+     		}
+
+			.coursework hr{
+ 			width:60%;
+			margin-top:-1rem;
+			margin-left:0rem;
+			border:1px solid var(--b-color);
+
+     		}
+			.activities hr{
+ 			width:65%;
+			margin-top:-1rem;
+			margin-left:0rem;
+			border:1px solid var(--b-color);
+
+     		}
+			.member hr{
+ 			width:25%;
+			margin-top:-1rem;
+			margin-left:0rem;
+			border:1px solid var(--b-color);
+
+     		}
+			 
+			.languages hr{
+  			width:30%;
+			margin-top:-1rem;
+			margin-left:0rem;
+			border:1px solid var(--b-color);
+
+     		}
+			.awards hr{
+ 			width:59%;
+			margin-top:-1rem;
+			margin-left:0rem;			
+			border:1px solid var(--b-color);
+
+
+     		}
+			.hobbies hr{
+ 			width:62%;
+			margin-top:-1rem;
+			margin-left:0rem;
+ 			border:1px solid var(--b-color);
+
+     		}
+           @media(max-width:1100px){
+			   *{
+				   font-size:2rem;
+			   }
+			   .container{
+				   display: grid;
+				   grid-template-columns: auto;
+       
+ 
+
+			   }
+			   .education{
+				   column-count: 1;
+				   margin-top:5rem;
+				   margin-right:8rem;
+ 			   }
+			   .profile p{
+				   width:430px;
+				   line-height:3rem;
+			   }
+		   }
+	 
+	
+
+ 
+		 
+  		
+
+	</style>
+	<div class = "container">
+		<div class = "header">
+			<h1>Saleh Imtiaz</h1>
+		</div>
+		<div class = "image">
+			<img src = "saleh1.png" alt="">
+		
+ 		</div>
+		 <div class = "icons">
+		 <i class="fa fa-map-marker" style="font-size:24px;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dhaka,Bangladesh</i><br><br>
+		 <i class="fa fa-phone" style="font-size:24px;color:black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+8801798788426</i><br><br>
+		 <i class="fa fa-envelope" style="font-size:24px;color:black">&nbsp;&nbsp;salehimtiaz59@gmail.com</i><br><br>
+         <a href = "https://github.com/Techyy87saleh"><i class="fa fa-github" style="font-size:24px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Techyy87saleh</i> </a>
+ </div>
+
+<div class = "profile">
+ 	
+	<h4>Career Objectives</h4>
+	<hr>
+	<p>A motivated and personable student pursuing a BSc in Computer Science and Engineering at the University of Amercian International University-Bangladesh to apply for the position of Intern Frontend Developer at Qtec Solution Limited.Hard-working individual with proficiency in HTML & CSS and possessing a strong willingness to learn modern technologies.</p>
+</div>
+
+   <div class = "skills">
+	<h1>Skills</h1>
+	<hr>
+   </div>
+   <div class = "progress">
+ 	<h3>HTML</h3>
+ 	<div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:75%"></div>
+	 </div>
+	</div>
+	<div class = "progress1">
+	<h3>CSS</h3>
+	<div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:85%"></div>
+    </div>
+	</div>
+
+	<div class = "progress2">
+		<h3>Responsive Design</h3>
+		<div class="w3-border" style="width:35%">
+	
+		<div class="w3-orange" style="height:10px;width:75%"></div>
+		</div>
+		</div>
+		 
+	 
+     <div class  = "progress3">
+     <h3>Javascript</h3>
+     <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:55%"></div>
+    </div>
+	 </div>
+     
+	 <div class  = "progress4">
+	<h3>Jquery</h3>
+     <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:40%"></div>
+    </div>
+	</div>
+    <div class  ="progress5">
+	<h3>Sass</h3>
+     <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:60%"></div>
+    </div>
+	</div>
+    
+	<div class = "progress6">
+	<h3>Wordpress Elementor</h3>
+    <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:30%"></div>
+	</div>
+	</div>
+
+	<div class = "progress7">
+
+	<h3>SEO</h3>
+    <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:25%"></div>
+	</div>
+	</div>
+    
+	<div class = "progress8">
+
+	
+	<h3>Microsoft Powerpoint</h3>
+    <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:70%"></div>
+	</div>
+	</div>
+
+	<div class = "progress9">
+
+    <h3>Problem Solving</h3>
+	<div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:60%"></div>
+	</div>
+	</div>
+
+	<div class = "progress10">
+
+
+	<h3>Teamwork</h3>
+    <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:65%"></div>
+	</div>
+	</div>
+     
+	<div class = "progress11">
+
+	<h3>Communication</h3>
+    <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:75%"></div>
+	</div>
+	</div>
+    
+	<div class = "progress12">
+
+	<h3>Leadership</h3>
+    <div class="w3-border" style="width:35%">
+
+	<div class="w3-orange" style="height:10px;width:75%"></div>
+	</div>
+	</div>
+
+	<div class = "education">
+		<div class = "edu1">
+ 	 <h1>Education &nbsp;<i class='fas fa-graduation-cap' style='font-size:36px'></i></h1><br>
+	  <hr>
+
+		<h4>2018-Present</h4>
+		<p>American International University-Bangladesh</p>
+		<h5>Computer Science and Engineering</h5>
+
+ 	<div class = "coursework">
+ 	<h1>Relevant coursework</h1>
+	 <hr>
+	 
+	<p><li>Web Technologies</li></p>
+ 	<div class = "activities">
+ 	<h1>Extracurricular activities</h1>
+	 <hr>
+	<p><li>Participated in Virtual Reality Conference </li></p><br>
+ 	<div class = "year">
+		<h4>2015</h4>
+		<h2>S.S.C(Science Stream)</h2>
+	<h3>Birshrestha Munshi Abdur Rouf Public College,Dhaka</h3>
+	<p>GPA 4.67</p>
+	<br>
+	<div class = "member">
+ 	<h1>Activities</h1>
+	 <hr>
+	<p>Member of School Cricket Team</p><br>
+   
+ 	 <div class = "year1">
+		  
+	<h4>2017</h4>
+	<h2>H.S.C(Science Stream)</h2>
+	<h3>Birshrestha Munshi Abdur Rouf Public College,Dhaka</h3>
+	<p>GPA 4.58</p>
+	 <br>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+   
+
+    <div class = "experience">
+ 	<h1>Experience&nbsp;<i class='fas fa-user-alt' style='font-size:36px'></i></h1>
+	 <hr>
+	<P><a href = "https://salehcoding.wordpress.com/ "> <i class="fa fa-wordpress" style="font-size:27px">&nbsp;Wordpress Code Blogging</i></P></a><br>
+ 	<P><a href = "https://techyy87saleh.github.io/Shakespeare-novel/"> <i class="fa fa-github" style="font-size:24px">&nbsp;Shakespeare Short Story/CSS</i></P></a><br>
+	<P><a href = "https://techyy87saleh.github.io/Nature-is-an-Inspiration-CSS/"> <i class="fa fa-github" style="font-size:24px">&nbsp;Nature-Is-An-Inspiration-CSS template</i></P></a><br>
+	<P><a href = "https://techhy87saleh.github.io/Car-Rent-Services/"> <i class="fa fa-github" style="font-size:24px">&nbsp;Car Rent Services-CSS template</i></P></a><br>
+	<P><a href = "https://techyy87saleh.github.io/Responsive-Flexbox-Gallery/"> <i class="fa fa-github" style="font-size:24px">&nbsp;Responsive Flexbox Image Gallery</i></P></a><br>
+	<P><a href = "https://techyy87saleh.github.io/Best-Fashion-Trend-CSS-template/"> <i class="fa fa-github" style="font-size:24px">&nbsp;Best Fashion Trend CSS Template</i></P></a><br>
+	<P><a href = "https://techyy87saleh.github.io/BMI/"> <i class="fa fa-github" style="font-size:24px">&nbsp;Simple Body Mass Index Calculation/Javascript</i></P></a><br>
+	<P><a href = "https://techyy87saleh.github.io/Student-Grade-Report-JS/"> <i class="fa fa-github" style="font-size:24px">&nbsp;Student Grade Report/Javascript</i></P></a><br>
+
+</div>
+
+<div class = "languages">
+ <h1>Language<i class="material-icons" style="font-size:40px;color:black">&#xe894;</i></h1><br>
+ <hr>
+<p><li>Bengali</li></p>
+<p><li>English</li></p>
+<p><li>Arabic</li></p>
+<p><li>Hindi</li></p>
+</div>
+
+
+<div class = "awards">
+ <h1>Awards/Certifications&nbsp;<i class='fas fa-award' style='font-size:24px;color:black'></i></h1><br>
+ <hr>
+<p><li>HTML & CSS Course-Udemy</li></p>
+ 
+</div>
+<div class = "hobbies">
+ <h1>Hobbies and Interests&nbsp;<i class='fas fa-user-alt' style='font-size:36px'></i></h1>
+ <hr>
+<p><li>Surfing Internet</li></p>
+<p><li>Self learning through e-courses</li></p>
+<p><li>Reading Books</li></p>
+<p><li>Fitness</li></p>
+<p><li>Swimming</li></p>
+
+
+
+
+</div>
+	</div>
+	</div>
+    
+ 
+ 
+ </body>
+</html>
